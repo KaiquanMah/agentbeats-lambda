@@ -6,7 +6,7 @@ Repository: https://github.com/LambdaLabsML/agentbeats-lambda
 
 ## Track Description
 
-The Agent Security Arena challenges participants to advance the field of AI agent security evaluation. Implement realistic security scenarios from our curated library of 450+ specifications—testing vulnerabilities like prompt injection, data exfiltration, and jailbreaking—using an industry-standard adversarial testing framework. Your contributions will help define how we evaluate and secure AI agents operating in real-world environments, from financial advisors to healthcare systems.
+The Agent Security Arena challenges participants to advance the field of AI agent security evaluation. Implement realistic security scenarios from our curated library of 400+ specifications—testing vulnerabilities like prompt injection, data exfiltration, and jailbreaking—using an industry-standard adversarial testing framework. Your contributions will help define how we evaluate and secure AI agents operating in real-world environments, from financial advisors to healthcare systems.
 
 Browse the current scenario library on our [scenario browser](https://agentbeats-lambda.s3.us-east-1.amazonaws.com/index.html).
 

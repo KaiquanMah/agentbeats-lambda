@@ -195,7 +195,7 @@ The competition runs in two sequential phases. **All participants compete in bot
 - Bonus: Submit with one successful attack demonstration
 
 **What Lambda Provides**:
-- [450+ security scenario specifications](https://agentbeats-lambda.s3.us-east-1.amazonaws.com/index.html)
+- [400+ security scenario specifications](https://agentbeats-lambda.s3.us-east-1.amazonaws.com/index.html)
 - Baseline attacker and defender agents
 - Plugin system and templates
 - Scoring and evaluation system

@@ -2,7 +2,7 @@
 
 This document defines the metadata Lambda provides for each scenario and the submission requirements for participants.
 
-Browse the full library of **450+ security scenario specifications** at: https://agentbeats-lambda.s3.us-east-1.amazonaws.com/index.html
+Browse the full library of **400+ security scenario specifications** at: https://agentbeats-lambda.s3.us-east-1.amazonaws.com/index.html
 
 ---
 
