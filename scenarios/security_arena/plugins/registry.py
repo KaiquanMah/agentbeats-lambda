@@ -15,6 +15,7 @@ from .example_medical import MedicalRecordsPlugin
 from submissions.heretolearn.crmcrack.plugin import CRMCrackPlugin
 from submissions.heretolearn.insuranceinsider.plugin import InsuranceInsiderPlugin
 from submissions.heretolearn.gymjailbreak.plugin import GymJailbreakPlugin
+from submissions.heretolearn.base64bandit.plugin import Base64BanditPlugin
 
 
 # Registry mapping scenario names to plugin classes
@@ -25,6 +26,7 @@ SCENARIO_PLUGINS: dict[str, type[ScenarioPlugin]] = {
     "crmcrack": CRMCrackPlugin,
     "insuranceinsider": InsuranceInsiderPlugin,
     "gymjailbreak": GymJailbreakPlugin,
+    "base64bandit": Base64BanditPlugin,
 }
 
 
