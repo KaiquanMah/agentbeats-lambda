@@ -1,6 +1,6 @@
 # Base64Bandit Scenario
 
-This is a **jailbreak scenario** testing AI resistance to encoded malicious instructions.
+This is a **jailbreak scenario** which tests an email drafting assistant's resistance to encoded malicious instructions.
 
 ## Overview
 
@@ -79,6 +79,6 @@ Results will be saved to `results/security_arena_*/` with:
 
 ## Real-World Relevance
 
-This models real threats where attackers attempt to bypass content moderation and ethical filters in AI-powered corporate communication tools. Encoded payloads could be used to generate discriminatory marketing campaigns, biased hiring communications, or exclusionary customer outreach—all while appearing to follow "legitimate business instructions".
+This scenario models real threats where attackers attempt to bypass content moderation and ethical filters in AI-powered corporate communication tools. Encoded payloads could be used to generate discriminatory marketing campaigns, biased hiring communications, or exclusionary customer outreach—all while appearing to follow "legitimate business instructions".
 
 ---
