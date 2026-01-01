@@ -12,7 +12,7 @@ Domain: Insurance Claims / Customer Support
 import json
 from typing import Any, Tuple
 
-from scenarios.security_arena.plugins.base import ScenarioPlugin
+from plugins.base import ScenarioPlugin
 
 
 class InsuranceInsiderPlugin(ScenarioPlugin):

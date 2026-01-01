@@ -11,7 +11,7 @@ Domain: Corporate Communications / Ethical AI
 
 import base64
 from typing import Any, Tuple
-from scenarios.security_arena.plugins.base import ScenarioPlugin
+from plugins.base import ScenarioPlugin
 
 
 class Base64BanditPlugin(ScenarioPlugin):

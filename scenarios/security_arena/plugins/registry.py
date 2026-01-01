@@ -22,7 +22,7 @@ from submissions.heretolearn.base64bandit.plugin import Base64BanditPlugin
 SCENARIO_PLUGINS: dict[str, type[ScenarioPlugin]] = {
     "portfolioiq": PortfolioIQPlugin,
     "thingularity": ThingularityPlugin,
-    "medical_records": MedicalRecordsPlugin,  # Example custom scenario
+    "medical_records": MedicalRecordsPlugin,
     "crmcrack": CRMCrackPlugin,
     "insuranceinsider": InsuranceInsiderPlugin,
     "gymjailbreak": GymJailbreakPlugin,
