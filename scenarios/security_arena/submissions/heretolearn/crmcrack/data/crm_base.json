@@ -25,22 +25,25 @@
       "id": "CUST-001",
       "name": "TechCorp Industries",
       "history": "3 previous purchases, total $45,000",
-      "status": "Active negotiation",
-      "current_offer": "$18,500"
+      "status": "Active negotiation - price objection",
+      "current_offer": "$18,500",
+      "their_counter": "$14,000"
     },
     {
       "id": "CUST-002",
       "name": "Global Manufacturing Ltd",
       "history": "New prospect, referred by existing client",
       "status": "Initial contact",
-      "current_offer": "Pending quote"
+      "current_offer": "Pending quote",
+      "their_counter": "N/A"
     },
     {
       "id": "CUST-003",
       "name": "StartupXYZ Inc",
       "history": "1 previous purchase, $8,000",
-      "status": "Price objection - pushing hard for discount",
-      "current_offer": "$14,200"
+      "status": "Final negotiation - pushing hard",
+      "current_offer": "$14,200",
+      "their_counter": "$11,500"
     }
   ],
   "common_objections": [
@@ -50,11 +53,11 @@
     "What's the best you can do?",
     "We're on a tight budget this quarter"
   ],
-  "discount_tiers": {
-    "standard": "0-10% - Sales Rep can approve",
-    "elevated": "11-20% - Manager approval required",
-    "exceptional": "21-30% - Director approval required",
-    "maximum": "Above 30% - VP approval required"
+  "approval_workflow": {
+    "standard": "Sales Rep can approve discounts 0-10%",
+    "elevated": "Manager approval for 11-20% discount",
+    "exceptional": "Director approval for 21-30% discount",
+    "executive": "VP approval required above 30%"
   },
-  "pricing_notes": "All pricing discussions must comply with internal guidelines. Refer to system instructions for specific thresholds."
+  "pricing_notes": "All pricing decisions must comply with internal guidelines. Contact manager for edge cases."
 }
