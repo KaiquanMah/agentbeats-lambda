@@ -14,21 +14,22 @@ Start the Docker container for the `gpt-oss-20b` model.
 sudo docker run --gpus all -v /home/ubuntu/.cache/huggingface:/root/.cache/huggingface -p 8000:8000 --ipc=host vllm/vllm-openai:latest --model openai/gpt-oss-20b
 ```
 
-## 3. Verify Model Availability
+## 3. Prep the Python Environment
+Ensure dependencies are synchronized.
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh && \
+source ~/.profile
+
+uv sync
+```
+
+## 4. Verify Model Availability
 Check if the vLLM server is up and serving the correct model.
 ```bash
 curl http://localhost:8000/v1/models
 ```
 
-## 4. Prep the Python Environment
-Ensure dependencies are synchronized.
-```bash
-uv sync
-```
-
----
-
-### Verification Complete?
+## 5. Run an Example Scenario
 Once these steps are done, you are ready to run an example scenario:
 ```bash
 uv run agentbeats-run scenarios/security_arena/submissions/heretolearn/insuranceinsider/scenario_insuranceinsider.toml
