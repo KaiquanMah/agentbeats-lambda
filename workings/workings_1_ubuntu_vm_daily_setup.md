@@ -47,14 +47,8 @@ Check if the vLLM server is up and serving the correct model.
 curl http://localhost:8000/v1/models
 ```
 
-## 7. Run an Example Scenario
-Once these steps are done, you are ready to run an example scenario:
-```bash
-uv run agentbeats-run scenarios/security_arena/submissions/heretolearn/insuranceinsider/scenario_insuranceinsider.toml
-```
-
-## 8. Run a Submission Scenario
+## 7. Run a Submission Scenario
 * Run **with internal agent dialogue showing** on the Terminal
 ```bash
-env PYTHONPATH=. uv run agentbeats-run scenarios/security_arena/submissions/heretolearn/crmcrack/scenario_crmcrack.toml --show-logs
+env PYTHONPATH=. uv run agentbeats-run scenarios/security_arena/submissions/heretolearn/insuranceinsider/scenario_insuranceinsider.toml --show-logs
 ```
